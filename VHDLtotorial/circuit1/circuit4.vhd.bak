@@ -1,0 +1,18 @@
+--circuit example
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity circuit4 is
+port(
+	x2, x1, x0 in std_logic;
+	F: out std_logic
+);
+end entity;
+
+architecture dataflow of circuit4 is
+begin
+
+F <= (not x2) or ((not x1) and (not x0);
+
+end architecture;

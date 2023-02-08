@@ -1,0 +1,29 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LDIR",
+					"strict" : false
+				},
+				{
+					"name" : "RDIR",
+					"strict" : false
+				},
+				{
+					"name" : "Collision",
+					"strict" : false
+				},
+				{
+					"name" : "LeftS",
+					"strict" : false
+				},
+				{
+					"name" : "RightS",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

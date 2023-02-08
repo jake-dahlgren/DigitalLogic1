@@ -1,0 +1,395 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition"
+
+// DATE "10/19/2022 08:14:34"
+
+// 
+// Device: Altera 10M50DAF484C7G Package FBGA484
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module digibot3 (
+	Seg0,
+	Collision,
+	Left,
+	Right,
+	Seg1,
+	Seg2,
+	Seg3,
+	Seg4,
+	Seg5,
+	Seg6,
+	RDIR,
+	REN,
+	LEN,
+	LDIR);
+output 	Seg0;
+input 	Collision;
+input 	Left;
+input 	Right;
+output 	Seg1;
+output 	Seg2;
+output 	Seg3;
+output 	Seg4;
+output 	Seg5;
+output 	Seg6;
+output 	RDIR;
+output 	REN;
+output 	LEN;
+output 	LDIR;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \Seg0~output_o ;
+wire \Seg1~output_o ;
+wire \Seg2~output_o ;
+wire \Seg3~output_o ;
+wire \Seg4~output_o ;
+wire \Seg5~output_o ;
+wire \Seg6~output_o ;
+wire \RDIR~output_o ;
+wire \REN~output_o ;
+wire \LEN~output_o ;
+wire \LDIR~output_o ;
+wire \Left~input_o ;
+wire \Collision~input_o ;
+wire \Right~input_o ;
+wire \inst8|81~0_combout ;
+wire \inst8|82~0_combout ;
+wire \inst8|33~0_combout ;
+wire \inst8|84~0_combout ;
+wire \inst8|86~0_combout ;
+wire \inst5|sub|79~combout ;
+wire \inst7|sub|79~combout ;
+
+
+fiftyfivenm_io_obuf \Seg0~output (
+	.i(!\inst8|81~0_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\Seg0~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \Seg0~output .bus_hold = "false";
+defparam \Seg0~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \Seg1~output (
+	.i(\inst8|82~0_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\Seg1~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \Seg1~output .bus_hold = "false";
+defparam \Seg1~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \Seg2~output (
+	.i(\inst8|33~0_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\Seg2~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \Seg2~output .bus_hold = "false";
+defparam \Seg2~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \Seg3~output (
+	.i(!\inst8|84~0_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\Seg3~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \Seg3~output .bus_hold = "false";
+defparam \Seg3~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \Seg4~output (
+	.i(vcc),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\Seg4~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \Seg4~output .bus_hold = "false";
+defparam \Seg4~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \Seg5~output (
+	.i(\inst8|86~0_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\Seg5~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \Seg5~output .bus_hold = "false";
+defparam \Seg5~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \Seg6~output (
+	.i(!\inst8|84~0_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\Seg6~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \Seg6~output .bus_hold = "false";
+defparam \Seg6~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \RDIR~output (
+	.i(\inst5|sub|79~combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\RDIR~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \RDIR~output .bus_hold = "false";
+defparam \RDIR~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \REN~output (
+	.i(\inst5|sub|79~combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\REN~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \REN~output .bus_hold = "false";
+defparam \REN~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \LEN~output (
+	.i(\inst7|sub|79~combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\LEN~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \LEN~output .bus_hold = "false";
+defparam \LEN~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_obuf \LDIR~output (
+	.i(\inst7|sub|79~combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\LDIR~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \LDIR~output .bus_hold = "false";
+defparam \LDIR~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \Left~input (
+	.i(Left),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\Left~input_o ));
+// synopsys translate_off
+defparam \Left~input .bus_hold = "false";
+defparam \Left~input .listen_to_nsleep_signal = "false";
+defparam \Left~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \Collision~input (
+	.i(Collision),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\Collision~input_o ));
+// synopsys translate_off
+defparam \Collision~input .bus_hold = "false";
+defparam \Collision~input .listen_to_nsleep_signal = "false";
+defparam \Collision~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \Right~input (
+	.i(Right),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\Right~input_o ));
+// synopsys translate_off
+defparam \Right~input .bus_hold = "false";
+defparam \Right~input .listen_to_nsleep_signal = "false";
+defparam \Right~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_lcell_comb \inst8|81~0 (
+// Equation(s):
+// \inst8|81~0_combout  = (\Left~input_o ) # ((\Collision~input_o ) # (\Right~input_o ))
+
+	.dataa(\Left~input_o ),
+	.datab(\Collision~input_o ),
+	.datac(\Right~input_o ),
+	.datad(gnd),
+	.cin(gnd),
+	.combout(\inst8|81~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst8|81~0 .lut_mask = 16'hFEFE;
+defparam \inst8|81~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+fiftyfivenm_lcell_comb \inst8|82~0 (
+// Equation(s):
+// \inst8|82~0_combout  = (!\Collision~input_o  & ((!\Right~input_o ) # (!\Left~input_o )))
+
+	.dataa(gnd),
+	.datab(\Left~input_o ),
+	.datac(\Right~input_o ),
+	.datad(\Collision~input_o ),
+	.cin(gnd),
+	.combout(\inst8|82~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst8|82~0 .lut_mask = 16'h003F;
+defparam \inst8|82~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+fiftyfivenm_lcell_comb \inst8|33~0 (
+// Equation(s):
+// \inst8|33~0_combout  = (!\Collision~input_o  & !\Right~input_o )
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(\Collision~input_o ),
+	.datad(\Right~input_o ),
+	.cin(gnd),
+	.combout(\inst8|33~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst8|33~0 .lut_mask = 16'h000F;
+defparam \inst8|33~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+fiftyfivenm_lcell_comb \inst8|84~0 (
+// Equation(s):
+// \inst8|84~0_combout  = (!\Collision~input_o  & ((\Left~input_o ) # (\Right~input_o )))
+
+	.dataa(\Left~input_o ),
+	.datab(\Right~input_o ),
+	.datac(gnd),
+	.datad(\Collision~input_o ),
+	.cin(gnd),
+	.combout(\inst8|84~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst8|84~0 .lut_mask = 16'h00EE;
+defparam \inst8|84~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+fiftyfivenm_lcell_comb \inst8|86~0 (
+// Equation(s):
+// \inst8|86~0_combout  = (\Collision~input_o ) # (\Left~input_o  $ (!\Right~input_o ))
+
+	.dataa(\Collision~input_o ),
+	.datab(\Left~input_o ),
+	.datac(\Right~input_o ),
+	.datad(gnd),
+	.cin(gnd),
+	.combout(\inst8|86~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst8|86~0 .lut_mask = 16'hEBEB;
+defparam \inst8|86~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+fiftyfivenm_lcell_comb \inst5|sub|79 (
+// Equation(s):
+// \inst5|sub|79~combout  = (\Right~input_o  & !\Collision~input_o )
+
+	.dataa(\Right~input_o ),
+	.datab(gnd),
+	.datac(gnd),
+	.datad(\Collision~input_o ),
+	.cin(gnd),
+	.combout(\inst5|sub|79~combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst5|sub|79 .lut_mask = 16'h00AA;
+defparam \inst5|sub|79 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+fiftyfivenm_lcell_comb \inst7|sub|79 (
+// Equation(s):
+// \inst7|sub|79~combout  = (\Left~input_o  & !\Collision~input_o )
+
+	.dataa(\Left~input_o ),
+	.datab(gnd),
+	.datac(gnd),
+	.datad(\Collision~input_o ),
+	.cin(gnd),
+	.combout(\inst7|sub|79~combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst7|sub|79 .lut_mask = 16'h00AA;
+defparam \inst7|sub|79 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+assign Seg0 = \Seg0~output_o ;
+
+assign Seg1 = \Seg1~output_o ;
+
+assign Seg2 = \Seg2~output_o ;
+
+assign Seg3 = \Seg3~output_o ;
+
+assign Seg4 = \Seg4~output_o ;
+
+assign Seg5 = \Seg5~output_o ;
+
+assign Seg6 = \Seg6~output_o ;
+
+assign RDIR = \RDIR~output_o ;
+
+assign REN = \REN~output_o ;
+
+assign LEN = \LEN~output_o ;
+
+assign LDIR = \LDIR~output_o ;
+
+endmodule

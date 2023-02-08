@@ -1,0 +1,72 @@
+|rca
+Overflow <= fa:inst.Cout
+A[0] => fa:inst3.A
+A[1] => fa:inst2.A
+A[2] => fa:inst1.A
+A[3] => fa:inst.A
+B[0] => fa:inst3.B
+B[1] => fa:inst2.B
+B[2] => fa:inst1.B
+B[3] => fa:inst.B
+S[0] <= fa:inst3.SUM
+S[1] <= fa:inst2.SUM
+S[2] <= fa:inst1.SUM
+S[3] <= fa:inst.SUM
+
+
+|rca|fa:inst
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst1.IN0
+A => inst.IN0
+Cin => inst2.IN1
+Cin => inst3.IN1
+Cin => inst14.IN1
+B => inst3.IN0
+B => inst1.IN1
+B => inst.IN1
+SUM <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rca|fa:inst1
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst1.IN0
+A => inst.IN0
+Cin => inst2.IN1
+Cin => inst3.IN1
+Cin => inst14.IN1
+B => inst3.IN0
+B => inst1.IN1
+B => inst.IN1
+SUM <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rca|fa:inst2
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst1.IN0
+A => inst.IN0
+Cin => inst2.IN1
+Cin => inst3.IN1
+Cin => inst14.IN1
+B => inst3.IN0
+B => inst1.IN1
+B => inst.IN1
+SUM <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rca|fa:inst3
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst1.IN0
+A => inst.IN0
+Cin => inst2.IN1
+Cin => inst3.IN1
+Cin => inst14.IN1
+B => inst3.IN0
+B => inst1.IN1
+B => inst.IN1
+SUM <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+
+

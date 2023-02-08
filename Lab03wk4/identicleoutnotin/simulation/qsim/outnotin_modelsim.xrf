@@ -1,0 +1,8 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/dahlgrenj/OneDrive - Milwaukee School of Engineering/Documents/CE1901/Lab03wk4/identicleoutnotin/outnotin.bdf
+source_file = 1, C:/Users/dahlgrenj/OneDrive - Milwaukee School of Engineering/Documents/CE1901/Lab03wk4/identicleoutnotin/db/outnotin.cbx.xml
+design_name = outnotin
+instance = comp, \F~output , F~output, outnotin, 1
+instance = comp, \A~input , A~input, outnotin, 1
+instance = comp, \B~input , B~input, outnotin, 1
+instance = comp, \C~input , C~input, outnotin, 1

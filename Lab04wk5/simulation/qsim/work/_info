@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dahlgrenj/OneDrive - Milwaukee School of Engineering/Documents/CE1901/Lab04wk5/simulation/qsim
+vdigibotController
+!s110 1664926560
+!i10b 1
+!s100 ad2JlFPSCzG2KG^Y5I>aO3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I8KZ:ef]ki^znI0lEe^8AM2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1664926560
+8digibotController.vo
+FdigibotController.vo
+!i122 12
+L0 32 143
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1664926560.000000
+!s107 digibotController.vo|
+!s90 -work|work|digibotController.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+ndigibot@controller
+vdigibotController_vlg_vec_tst
+!s110 1664926561
+!i10b 1
+!s100 omNj`07k1fiI:`@3e9>H`0
+R1
+IzJkjUCOlQ`gTS8V=9U1NW2
+R2
+R0
+w1664926559
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 13
+L0 30 48
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6
+ndigibot@controller_vlg_vec_tst

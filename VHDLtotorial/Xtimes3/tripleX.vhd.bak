@@ -1,0 +1,7 @@
+-- 3 bit input, F = 3 * x
+--Dahlgren 11/1/22
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity 

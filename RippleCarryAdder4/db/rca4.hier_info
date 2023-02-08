@@ -1,0 +1,78 @@
+|rca4bits
+V <= inst87665.DB_MAX_OUTPUT_PORT_TYPE
+A2 => fa:inst534646.A
+B2 => inst7743.IN0
+SUB => inst7743.IN1
+SUB => inst88765.IN1
+SUB => inst9643542.IN1
+SUB => fa:inst534648.Cin
+SUB => inst987876.IN1
+A1 => fa:inst534647.A
+B1 => inst88765.IN0
+A0 => fa:inst534648.A
+B0 => inst9643542.IN0
+A3 => fa:inst534645.A
+B3 => inst987876.IN0
+C4 <= fa:inst534645.Cout
+S3 <= fa:inst534645.SUM
+S2 <= fa:inst534646.SUM
+S1 <= fa:inst534647.SUM
+S0 <= fa:inst534648.SUM
+
+
+|rca4bits|fa:inst534646
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst1.IN0
+A => inst.IN0
+Cin => inst2.IN1
+Cin => inst3.IN1
+Cin => inst14.IN1
+B => inst3.IN0
+B => inst1.IN1
+B => inst.IN1
+SUM <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rca4bits|fa:inst534647
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst1.IN0
+A => inst.IN0
+Cin => inst2.IN1
+Cin => inst3.IN1
+Cin => inst14.IN1
+B => inst3.IN0
+B => inst1.IN1
+B => inst.IN1
+SUM <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rca4bits|fa:inst534648
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst1.IN0
+A => inst.IN0
+Cin => inst2.IN1
+Cin => inst3.IN1
+Cin => inst14.IN1
+B => inst3.IN0
+B => inst1.IN1
+B => inst.IN1
+SUM <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rca4bits|fa:inst534645
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst1.IN0
+A => inst.IN0
+Cin => inst2.IN1
+Cin => inst3.IN1
+Cin => inst14.IN1
+B => inst3.IN0
+B => inst1.IN1
+B => inst.IN1
+SUM <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+
+

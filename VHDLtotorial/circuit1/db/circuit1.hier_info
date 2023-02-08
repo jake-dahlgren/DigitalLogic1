@@ -1,0 +1,11 @@
+|circuit6
+Collision => Mux0.IN4
+Collision => Mux1.IN4
+LeftS => Mux0.IN5
+RightS => Mux1.IN5
+LDIR <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+RDIR <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+LEN <= <GND>
+REN <= <VCC>
+
+

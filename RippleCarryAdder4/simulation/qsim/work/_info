@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dahlgrenj/OneDrive - Milwaukee School of Engineering/Documents/CE1901/RippleCarryAdder4/simulation/qsim
+vhard_block
+!s110 1666833964
+!i10b 1
+!s100 ^[JS1ESH<P>f1CVdgJ:=N0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IVUNe6moJ9YgP>8E0g18dM3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1666833963
+Z3 8rca4.vo
+Z4 Frca4.vo
+!i122 20
+L0 581 45
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1666833964.000000
+Z6 !s107 rca4.vo|
+Z7 !s90 -work|work|rca4.vo|
+!i113 1
+Z8 o-work work
+Z9 tCvgOpt 0
+vrca4bits
+Z10 !s110 1667352564
+!i10b 1
+!s100 AMMM9LS^Xe8@JU;D>9W`z1
+R1
+Iek7X7iG[Jd>G;hjRoXzUH3
+R2
+R0
+w1667352563
+R3
+R4
+!i122 38
+L0 32 514
+R5
+r1
+!s85 0
+31
+Z11 !s108 1667352564.000000
+R6
+R7
+!i113 1
+R8
+R9
+vrca4bits_vlg_vec_tst
+R10
+!i10b 1
+!s100 RdeTeP^VicDZ5LAEk2zZm0
+R1
+IQOD;OFB`]B=cHhdI=^nzT2
+R2
+R0
+w1667352562
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 39
+L0 30 169
+R5
+r1
+!s85 0
+31
+R11
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R8
+R9

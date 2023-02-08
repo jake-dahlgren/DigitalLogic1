@@ -1,0 +1,82 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dahlgrenj/OneDrive - Milwaukee School of Engineering/Documents/CE1901/Lab01wk2/G4detector/simulation/qsim
+vG4
+Z1 !s110 1663163469
+!i10b 1
+!s100 `ojWziMm=QcFY0^]]Q47d2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I]h[I9[kbJ<;H@ebH4?]M70
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1663163468
+Z5 8G4.vo
+Z6 FG4.vo
+!i122 0
+L0 32 229
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1663163469.000000
+Z9 !s107 G4.vo|
+Z10 !s90 -work|work|G4.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@g4
+vG4_vlg_vec_tst
+R1
+!i10b 1
+!s100 ^V3mBHIYVa6b@G5Rz32GU3
+R2
+ITobA_<ef:c_?[VE2k^9Q12
+R3
+R0
+w1663163467
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 1
+L0 30 56
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R11
+R12
+n@g4_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 @W?QnQW@m65iaSUoeE?WV3
+R2
+IDgR=b=AXjIHgA<5hABa5`1
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 262 45
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12

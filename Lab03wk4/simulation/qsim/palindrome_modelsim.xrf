@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/dahlgrenj/OneDrive - Milwaukee School of Engineering/Documents/CE1901/Lab03wk4/palindrome.bdf
+source_file = 1, C:/Users/dahlgrenj/OneDrive - Milwaukee School of Engineering/Documents/CE1901/Lab03wk4/Waveform.vwf
+source_file = 1, C:/Users/dahlgrenj/OneDrive - Milwaukee School of Engineering/Documents/CE1901/Lab03wk4/db/palindrome.cbx.xml
+design_name = palindrome
+instance = comp, \F~output , F~output, palindrome, 1
+instance = comp, \A~input , A~input, palindrome, 1
+instance = comp, \C~input , C~input, palindrome, 1
+instance = comp, \B~input , B~input, palindrome, 1
+instance = comp, \inst6~0 , inst6~0, palindrome, 1

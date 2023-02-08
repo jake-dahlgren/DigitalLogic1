@@ -1,0 +1,18 @@
+--3 bit finction x < 5
+--Dahlgren 10/28
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity circuit4 is
+port(
+	
+);
+end entity;
+
+architecture dataflow of circuit4 is
+begin
+
+F <= (not x(2)) or ((not x(1)) and (not x(0)));
+
+end architecture;

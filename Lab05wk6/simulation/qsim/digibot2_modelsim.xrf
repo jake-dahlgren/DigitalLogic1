@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/dahlgrenj/OneDrive - Milwaukee School of Engineering/Documents/CE1901/Lab05wk6/digibot2.bdf
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/others/maxplus2/74151.tdf
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/aglobal.inc
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/others/maxplus2/f74151.bdf
+design_name = digibot2
+instance = comp, \LEN~output , LEN~output, digibot2, 1
+instance = comp, \REN~output , REN~output, digibot2, 1
+instance = comp, \B~input , B~input, digibot2, 1
+instance = comp, \A~input , A~input, digibot2, 1
+instance = comp, \C~input , C~input, digibot2, 1
+instance = comp, \inst|sub|81~0 , inst|sub|81~0, digibot2, 1
+instance = comp, \inst1|sub|79 , inst1|sub|79, digibot2, 1

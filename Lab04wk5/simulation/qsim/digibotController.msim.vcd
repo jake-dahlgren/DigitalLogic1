@@ -1,0 +1,107 @@
+$comment
+	File created using the following command:
+		vcd file digibotController.msim.vcd -direction
+$end
+$date
+	Tue Oct 04 18:36:01 2022
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module digibotController_vlg_vec_tst $end
+$var reg 1 ! A $end
+$var reg 1 " B $end
+$var reg 1 # C $end
+$var wire 1 $ LDIR $end
+$var wire 1 % RDIR $end
+
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var tri1 1 ) devclrn $end
+$var tri1 1 * devpor $end
+$var tri1 1 + devoe $end
+$var wire 1 , LDIR~output_o $end
+$var wire 1 - RDIR~output_o $end
+$var wire 1 . A~input_o $end
+$var wire 1 / B~input_o $end
+$var wire 1 0 inst|sub|79~combout $end
+$var wire 1 1 C~input_o $end
+$var wire 1 2 inst1|sub|79~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+1'
+x(
+1)
+1*
+1+
+0,
+0-
+0.
+0/
+00
+01
+02
+$end
+#125000
+1#
+11
+12
+1-
+1%
+#250000
+1"
+0#
+1/
+01
+02
+10
+1,
+0-
+0%
+1$
+#375000
+1#
+11
+12
+1-
+1%
+#500000
+1!
+0"
+0#
+1.
+0/
+01
+02
+00
+0,
+0-
+0%
+0$
+#625000
+1#
+11
+#750000
+1"
+0#
+1/
+01
+#875000
+1#
+11
+#1000000

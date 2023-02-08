@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dahlgrenj/OneDrive - Milwaukee School of Engineering/Documents/CE1901/Lab07wk8/simulation/qsim
+vrca
+Z1 !s110 1666099745
+!i10b 1
+!s100 lN7imWaYDBN7`5Mam1In?1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IQ[__CkKIJ]iPh<IZ0o6G^2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1666099743
+8lab6Adder.vo
+Flab6Adder.vo
+!i122 2
+L0 32 349
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1666099745.000000
+!s107 lab6Adder.vo|
+!s90 -work|work|lab6Adder.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vrca_vlg_vec_tst
+R1
+!i10b 1
+!s100 Ie37`I72MNICTXQ=RQUCZ0
+R2
+Ij65?5l1gb9f7bnFVYY?T@3
+R3
+R0
+w1666099742
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 3
+L0 30 121
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+R7
